@@ -1,4 +1,4 @@
-# app/main.py
+
 from flask import Flask, request, jsonify, redirect
 from app.models import save_url_mapping, get_original_url, increment_clicks, get_url_stats
 from app.utils import generate_short_code, is_valid_url
